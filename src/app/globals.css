@@ -1,0 +1,41 @@
+/* globals.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: transparent;
+}
+
+
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.button-group {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn {
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #005ccc;
+}
